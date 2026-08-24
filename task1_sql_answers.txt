@@ -1,0 +1,120 @@
+SQL QUERY 1 - Checkouts per Member:
+ member_id first_name last_name  total_checkouts
+      1034        Aya     Wahba               25
+      1044     Sherif     Saleh               21
+      1008       Ziad     Saleh               19
+      1010       Nour     Nabil               18
+      1027    Mostafa     Fouad               18
+      1018      Ahmed    Shafik               17
+      1024    Youssef    Hegazy               17
+      1065       Adam     Fahmy               17
+      1030       Reem     Osman               16
+      1047       Sara    Rashad               16
+      1072       Seif      Zaki               14
+      1050      Fares      Adel               11
+      1057      Ahmed     Fahmy               10
+      1079       Rana     Osman               10
+      1003     Bassel    Hegazy                9
+      1075      Malak     Fahmy                9
+      1061       Ziad     Fahmy                8
+      1016       Dina    Rashad                7
+      1020       Rana     Fouad                7
+      1059       Lina     Halim                7
+      1062      Tarek      Adel                7
+      1076       Dina     Wahba                7
+      1022    Youssef     Fouad                6
+      1032       Nada      Zaki                6
+      1054      Retaj     Fahmy                6
+      1068      Layla    Hegazy                6
+      1077       Lina    Rashad                6
+      1053       Adam    Shafik                5
+      1005    Youssef     Halim                3
+      1007     Sherif     Fouad                3
+      1015      Hamza     Sabry                3
+      1019    Mostafa     Wahba                3
+      1026       Nada     Saleh                3
+      1028     Hassan      Adel                3
+      1058       Lina   Mansour                3
+      1067        Aya   Ibrahim                3
+      1070      Ahmed      Zaki                3
+      1002      Fares     Saleh                2
+      1011      Menna     Halim                2
+      1013       Ziad     Fouad                2
+      1017       Adam      Badr                2
+      1037      Retaj     Kamel                2
+      1039       Nada      Riad                2
+      1040       Dina      Adel                2
+      1041       Nada    Rashad                2
+      1055    Mostafa     Kamel                2
+      1060      Layla     Wahba                2
+      1071       Jana    Hegazy                2
+      1073     Yassin     Kamel                2
+      1074    Mostafa     Saleh                2
+      1080     Bassel     Wahba                2
+      1001      Salma   Ibrahim                1
+      1006      Layla   Mansour                1
+      1009     Hassan     Saleh                1
+      1014     Habiba     Nabil                1
+      1023     Hassan    Rashad                1
+      1031        Ali     Fahmy                1
+      1035      Karim     Fahmy                1
+      1036       Lina      Zaki                1
+      1046       Amir     Fouad                1
+      1049      Ahmed     Gamal                1
+      1052      Retaj      Adel                1
+      1004      Fares     Wahba                0
+      1012        Ali    Hegazy                0
+      1021      Fares     Fouad                0
+      1025       Hana     Nabil                0
+      1029       Rana     Kamel                0
+      1033     Marwan     Wahba                0
+      1038        Mai   Mansour                0
+      1042      Fares     Fahmy                0
+      1043       Rana     Halim                0
+      1045     Sherif     Fahmy                0
+      1048    Youssef     Kamel                0
+      1051      Karim    Rashad                0
+      1056     Farida     Osman                0
+      1063      Layla     Fouad                0
+      1064      Fares     Sabry                0
+      1066       Amir     Wahba                0
+      1069     Bassel      Adel                0
+      1078     Habiba     Osman                0
+
+SQL QUERY 2 - Authors Starting with A:
+ book_id               title        author
+     501     The Silver Kite Amina Darwish
+     502      Desert Compass Amina Darwish
+     503   The Lantern Maker  Adel Roushdy
+     504 Rooftop Astronomers  Adel Roushdy
+     505 Letters to the Nile     Aya Hafez
+     506 The Paper Boat Club     Aya Hafez
+
+SQL QUERY 3 - Most Popular Books:
+ book_id  checkout_count
+     501              57
+     507              55
+     513              46
+     519              38
+     525              25
+
+SQL QUERY 4 - Top 10 Active Readers:
+ member_id first_name last_name  books_borrowed
+      1034        Aya     Wahba              25
+      1044     Sherif     Saleh              21
+      1008       Ziad     Saleh              19
+      1010       Nour     Nabil              18
+      1027    Mostafa     Fouad              18
+      1018      Ahmed    Shafik              17
+      1024    Youssef    Hegazy              17
+      1065       Adam     Fahmy              17
+      1030       Reem     Osman              16
+      1047       Sara    Rashad              16
+
+SQL QUERY 5 - Old Maadi Checkouts:
+ checkout_id  member_id  book_id checkout_date return_date neighborhood
+        9103       1003      513    2025-09-04  2025-09-25        Maadi
+        9081       1017      502    2025-08-25  2025-09-17        Maadi
+        9001       1008      501    2025-08-23  2025-08-28        Maadi
+        9050       1003      521    2025-08-21        None        Maadi
+        9085       1018      525    2025-08-19  2025-09-18        Maadi
